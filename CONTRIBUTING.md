@@ -12,6 +12,7 @@ Thank you for your interest in contributing to a Tech for Palestine (T4P) projec
   - [Submitting Pull Requests](#submitting-pull-requests)
   - [Feature Requests and Proposals](#feature-requests-and-proposals)
 - [Development Process](#development-process)
+- [Tools & Best Practices](#tools--best-practices)
 - [Style Guides](#style-guides)
 - [Security & Privacy](#security--privacy)
 - [Community & Support](#community--support)
@@ -72,6 +73,31 @@ There are many ways to contribute:
 
 ---
 
+## Tools & Best Practices
+
+We encourage all contributors to use the following tools and practices to ensure code quality, maintainability, and a collaborative workflow:
+
+### Recommended Tools
+
+- **Version Control**: [Git](https://git-scm.com/) (use feature branches, rebase or squash commits before merging if asked).
+- **Code Editors**: [VS Code](https://code.visualstudio.com/) or your preferred editor, with recommended extensions for linting and formatting.
+- **Linters & Formatters**: Respect `.editorconfig`, `.prettierrc`, `.eslintrc`, or language-specific linter configs in the repo.
+- **Testing**: Use the project’s preferred testing framework (see `README.md` or `CONTRIBUTING.md` in subfolders).
+- **Pre-commit Hooks**: Set up [pre-commit](https://pre-commit.com/) or other git hooks if provided.
+- **CI/CD**: Monitor CI checks on your PR for failures and fix them promptly.
+
+### Best Practices
+
+- **Keep PRs Small and Focused**: Smaller changes are easier to review and merge.
+- **Write Descriptive Commit Messages**: Explain what and why, not just how.
+- **Code Reviews**: Be constructive and kind. Ask questions if unsure.
+- **Documentation**: Update or add documentation for new features, APIs, or installation steps.
+- **Stay DRY**: Avoid duplicating code or logic.
+- **Accessibility and Inclusivity**: Where applicable, ensure UIs are accessible and documentation is inclusive.
+- **Security**: Do not commit secrets or credentials. See [Security & Privacy](#security--privacy).
+
+---
+
 ## Style Guides
 
 - Follow the coding style used in the repository (see `.editorconfig`, `.prettierrc`, or linter configuration).
@@ -98,7 +124,7 @@ There are many ways to contribute:
 
 ## License
 
-Unless otherwise specified, contributions are made under the repository's license. See LICENSE in each repo for details.
+Unless otherwise specified, contributions are made under the repository's license. See [`LICENSE`](./LICENSE) in each repo for details.
 
 ---
 
